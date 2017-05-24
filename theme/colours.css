@@ -417,13 +417,8 @@ dl.faq dt {
 /* Quote block */
 blockquote {
 	background-color: #181818;
-	background-image: url("./images/quote.gif");
 	border-color: #222;
 	color: #a2a2a2;
-}
-
-.rtl blockquote {
-	background-image: url("./images/quote_rtl.gif");
 }
 
 blockquote blockquote {
@@ -460,8 +455,8 @@ blockquote blockquote blockquote {
 /* Attachments
 ----------------------------------------*/
 .attachbox {
-	background-color: #FFFFFF;
-	border-color:  #C9D2D8;
+	background-color: #181818;
+	border-color:  #222;
 }
 
 .pm-message .attachbox {
@@ -469,7 +464,7 @@ blockquote blockquote blockquote {
 }
 
 .attachbox dd {
-	border-top-color: #C9D2D8;
+	border-top-color: #222;
 }
 
 .attachbox p {
@@ -649,7 +644,7 @@ Colours and backgrounds for buttons.css
 .caret	{ border-color: #C7C3BF; }
 
 .contact-icons a		{ border-color: #DCDCDC; }
-.contact-icons a:hover	{ background-color: #F2F6F9; }
+/*.contact-icons a:hover	{ background-color: #F2F6F9; }*/
 
 /* Pagination
 ---------------------------------------- */
