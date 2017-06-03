@@ -203,6 +203,10 @@
 		margin-top: -5px;
 	}
 
+	.navbar .nav-tabs .tab.selected span {
+		display: none;
+	}
+
 	/* Search
 	----------------------------------------*/
 	.responsive-search { display: block !important; }
@@ -467,7 +471,11 @@
 		position: inherit;
 	}
 
-	.postbody, .search .postbody {
+	.search .postbody {
+		margin-left: 0;
+	}
+
+	.pm .postbody {
 		margin-left: 0;
 	}
 
@@ -538,10 +546,6 @@
 	.has-profile .post-buttons {
 		right: 30px;
 		top: 15px;
-	}
-
-	.online {
-		background-size: 40px;
 	}
 
 	/* Misc stuff

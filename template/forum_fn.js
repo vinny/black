@@ -948,6 +948,20 @@ function parseDocument($container) {
 		check();
 		$(window).resize(check);
 	});
+
+
+	/**
+	* Add online status
+	*/
+	$('#phpbb.can-transform[data-online-text]').each(function() {
+		var text = $(this).attr('data-online-text');
+
+		$container.find('.online').each(function() {
+			var $this = $(this);
+
+			$this.css('position', 'relative').append('<span class="online-ribbon"><span>' + text + '</span><span>' + text + '</span></span>');
+		});
+	});
 }
 
 /**
@@ -955,6 +969,9 @@ function parseDocument($container) {
 */
 jQuery(function($) {
 	'use strict';
+
+	var transforms = ['transform', 'webkitTransform', 'msTransform'],
+	i, test;
 
 	// Swap .nojs and .hasjs
 	$('#phpbb.nojs').toggleClass('nojs hasjs');
@@ -965,6 +982,15 @@ jQuery(function($) {
 	$('form[data-focus]:first').each(function() {
 		$('#' + this.getAttribute('data-focus')).focus();
 	});
+
+	// Check for transformations
+	test = $('#phpbb').get(0);
+	for (i=0; i<transforms.length; i++) {
+		if (typeof(test.style[transforms[i]]) != 'undefined') {
+			$('#phpbb').addClass('can-transform');
+			break;
+		}
+	}
 
 	parseDocument($('body'));
 });

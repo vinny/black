@@ -78,7 +78,7 @@
 		</li>
 
 		<!-- EVENT overall_header_navigation_prepend -->
-		<li class="tab forums selected"<!-- IF not S_USER_LOGGED_IN --> data-skip-responsive="true"<!-- ELSE --> data-last-responsive="true"<!-- ENDIF -->>
+		<li class="tab forums selected">
 			<a href="{U_INDEX}" class="nav-link" title="{L_FORUMS}" role="menuitem">
 				<i class="icon fa-comment fa-fw" aria-hidden="true"></i> <span>{L_FORUMS}</span>
 			</a>
@@ -162,14 +162,14 @@
 	<!-- ENDIF -->
 
 	<!-- IF U_ACP -->
-		<li data-last-responsive="true" class="tab rightside">
+		<li data-skip-responsive="true" class="tab rightside">
 			<a href="{U_ACP}" class="nav-link" title="{L_ACP}" role="menuitem" title="{L_ACP_SHORT}">
 				<i class="icon fa-cogs fa-fw icon-white" aria-hidden="true"></i>
 			</a>
 		</li>
 	<!-- ENDIF -->
 	<!-- IF U_MCP -->
-		<li data-last-responsive="true" class="tab rightside">
+		<li data-skip-responsive="true" class="tab rightside">
 			<a href="{U_MCP}" class="nav-link" title="{L_MCP}" role="menuitem" title="{L_MCP_SHORT}">
 				<i class="icon fa-gavel fa-fw icon-white" aria-hidden="true"></i>
 			</a>

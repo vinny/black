@@ -588,10 +588,6 @@ fieldset.polls dd div {
 	color: #fff;
 }
 
-.online {
-	background-image: url("./en/icon_user_online.gif");
-}
-
 dd.profile-warnings {
 	color: #BC2A4D;
 }
