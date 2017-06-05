@@ -640,10 +640,10 @@ fieldset.polls {
 }
 
 fieldset.polls dl {
-	margin-top: 5px;
-	border-top: 1px solid transparent;
-	padding: 5px 0 0 0;
-	line-height: 120%;
+	margin-top: 0;
+	border-top: 1px solid;
+	padding: 5px 0;
+	line-height: 1.4;
 }
 
 fieldset.polls dl.voted {
@@ -679,10 +679,12 @@ fieldset.polls dd input {
 }
 
 fieldset.polls dd div {
+	border-radius: 4px;
 	text-align: right;
 	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
 	font-weight: bold;
-	padding: 2px 2px 0 2px;
+	padding: 0 3px;
 	overflow: visible;
 	min-width: 8px;
 }

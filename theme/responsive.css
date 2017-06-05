@@ -548,6 +548,29 @@
 		top: 15px;
 	}
 
+	.online-ribbon {
+		height: 35px;
+		left: 0;
+		top: 0;
+		width: 35px;
+	}
+
+	.rtl .online-ribbon {
+		left: 0;
+		right: 0;
+	}
+
+	.online-ribbon span {
+		width: 50px;
+		font-size: 6px;
+		line-height: 10px;
+		height: 10px;
+		text-align: center;
+		position: absolute;
+		top: 8px;
+		white-space: nowrap;
+	}
+
 	/* Misc stuff
 	----------------------------------------*/
 	h2 {
@@ -623,4 +646,3 @@
     	width: 80px;
 	}
 }
-
