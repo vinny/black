@@ -94,7 +94,15 @@ b, strong {
 	font-weight: bold;
 }
 
+.text-strong {
+	font-weight: bold;
+}
+
 i, em {
+	font-style: italic;
+}
+
+.text-italics {
 	font-style: italic;
 }
 
@@ -889,7 +897,7 @@ fieldset.fields1 dl.pmlist dd.recipients {
 /* Pagination in viewforum for multipage topics */
 .row .pagination {
 	display: block;
-	margin-top: 0.3em;
+	margin-top: -12px;
 }
 
 .row .pagination > ul {
@@ -900,12 +908,6 @@ fieldset.fields1 dl.pmlist dd.recipients {
 	border-radius: 2px;
 	padding: 1px 3px;
 	font-size: 12px;
-}
-
-.topic-poster {
-	float: left;
-	padding-right: 0.5em;
-	margin-top: 0.3em;
 }
 
 /* jQuery popups
@@ -1262,7 +1264,7 @@ ul.linklist:after,
 	border-radius: 5px;
 }
 
-.linklist.compact .rightside > a > span span {
+.linklist.compact .rightside > a > span {
 	display: none;
 }
 

@@ -9,11 +9,7 @@
  * Just change the name of the font after the 14/1 to the name of
  * the font you wish to use.
  */
-.icon,
-.button .icon,
-blockquote cite:before,
-.uncited:before,
-.icon_topic_attach:after {
+.icon, .button .icon, blockquote cite:before, .uncited:before, .icon_topic_attach:after {
 	display: inline-block;
   	font-weight: normal;
   	font-style: normal;
@@ -58,6 +54,10 @@ blockquote cite:before,
 	font-size: 16px;
 }
 
+.arrow-left .icon {
+	float: left;
+}
+
 .arrow-left:hover .icon {
 	margin-left: -5px;
 	margin-right: 5px;
@@ -86,13 +86,11 @@ blockquote cite:before,
     height: 12px;
 }
 
-blockquote cite:before,
-.uncited:before {
+blockquote cite:before, .uncited:before {
 	content: '\f10d'; /* Font Awesome quote-left */
 }
 
-.rtl blockquote cite:before,
-.rtl .uncited:before {
+.rtl blockquote cite:before, .rtl .uncited:before {
 	content: '\f10e'; /* Font Awesome quote-right */
 }
 

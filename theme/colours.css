@@ -445,13 +445,6 @@ blockquote blockquote blockquote {
 	color: #43ef5a;
 }
 
-.syntaxbg		{ color: #FFFFFF; }
-.syntaxcomment	{ color: #FF8000; }
-.syntaxdefault	{ color: #0000BB; }
-.syntaxhtml		{ color: #000000; }
-.syntaxkeyword	{ color: #007700; }
-.syntaxstring	{ color: #DD0000; }
-
 /* Attachments
 ----------------------------------------*/
 .attachbox {
