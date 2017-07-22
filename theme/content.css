@@ -400,12 +400,13 @@ p.author {
 
 /* Post signature */
 .signature {
+	font-family: "Lucida Grande","Trebuchet MS",Verdana,Helvetica,Arial,sans-serif;
+	font-size: 12px;
+	line-height: 1.4;
 	margin-top: 1.5em;
 	padding-top: 0.2em;
-	font-size: 1.1em;
 	border-top: 1px solid transparent;
 	clear: left;
-	line-height: 140%;
 	overflow: hidden;
 	width: 100%;
 }

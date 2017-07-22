@@ -478,6 +478,14 @@
 		margin-left: 0 !important;
 	}
 
+	#preview .postbody {
+		margin-left: 0 !important;
+	}
+
+	.section-memberlist .postbody {
+		margin-left: 0 !important;
+	}
+
 	.postprofile, .postbody, .search .postbody {
 		display: block;
 		width: auto;
@@ -544,26 +552,27 @@
 	}
 
 	.online-ribbon {
-		height: 35px;
-		left: 0;
-		top: 0;
-		width: 35px;
+		height: 35px !important;
+		left: 0 !important;
+		top: 0 !important;
+		width: 35px !important;
 	}
 
 	.rtl .online-ribbon {
-		left: 0;
-		right: 0;
+		left: 0 !important;
+		right: 0 !important;
 	}
 
 	.online-ribbon span {
-		width: 50px;
-		font-size: 6px;
-		line-height: 10px;
-		height: 10px;
-		text-align: center;
+		font-size: 6px !important;
+		height: 10px !important;
+		left: -12px !important;
+		line-height: 10px !important;
 		position: absolute;
-		top: 8px;
-		white-space: nowrap;
+		text-align: center;
+		top: 8px !important;
+		white-space: nowrap !important;
+		width: 50px !important;
 	}
 
 	/* Misc stuff
